@@ -1,0 +1,211 @@
+body{
+    max-width:max-content;
+}
+*{
+    margin: 0px;
+    
+}
+
+.div{
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgb(94, 94, 216);
+    height: 50px;
+    width:1450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30mm;
+
+}
+.title{
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 20px;    
+}
+
+.ul,.title,.li{
+    display: inline;
+}
+.ul{
+    padding-left: 60%;
+    
+}
+.li{
+    color: white;
+    cursor:default;
+    padding-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+.li:hover{
+    color: rgb(161, 158, 158);
+}
+.header{
+    z-index: 1;
+    margin: 10px;
+    color: white;
+    width: 100%;
+    padding-right:5%;
+    height: 170px;
+    display:inline-block;
+    border-radius: 25mm;
+}
+
+
+#img{
+    width: 150px; 
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
+    border-radius: 50%;
+    
+    
+}
+
+#mufeed{
+    background-color: rgb(94, 94, 216);
+    font-variant:inherit;
+    position: relative;
+    bottom: 68.5px;
+    margin: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    border-radius: 20mm;
+    display: inline;
+}
+
+
+.about{
+    color: rgb(0, 0, 0);
+    font-variant:normal;
+    margin: 30px;
+    width: 50%;
+    font-size:100%;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.skill{
+    display: block;
+    margin: 30px;
+    position:relative;
+    line-height: 40px;
+    
+}
+
+.base{
+    display: inline-block;
+    width: 600px;
+    height: 23px;
+    border-radius: 30mm;
+    background-color: rgb(185, 185, 185);
+}
+.p1,.p2,.p3,.p4{
+    display: inline-block;
+    background-color: rgb(130, 130, 130);
+    height: 23px;
+    border-radius: 30mm;
+    border-top-right-radius:0mm ;
+    border-bottom-right-radius:0mm ;
+    position: relative;
+    bottom: 3px;
+
+}
+.p1{
+    width: 90%;
+}
+.p2{
+    width: 85%;
+}
+.p3{
+    width: 80%;
+}
+.p4{
+    width: 70%;    
+}
+
+
+.resume{
+    display:block;
+    /* background-color: rgb(220, 220, 220); */
+    margin-right: 30px;
+}
+#resname{
+    margin-left: 30px;
+}
+
+.a{
+    
+    text-decoration: none;
+}
+.a:hover{
+    
+    text-decoration:underline;
+}
+tr{
+    line-height: 25px;
+}
+.contact{
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+section {
+    padding: 2rem;
+    text-align: center;
+}
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #16a085;
+    color: white;
+}
+#contactForm{
+    padding: 50px;
+    background-color:rgb(94, 94, 216) ;
+    border-radius: 10mm;
+}
+#name,#email,#message{
+    border-style: none;
+    height: 10mm;
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+    color:rgb(0, 0, 0) ;
+    border-radius: 5mm;
+    padding-left: 5mm;
+}
+#button{
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    color:rgb(113,113,113);
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 2mm;
+    border-radius: 5mm;
+}
+#button:active{
+    background: #a7a7a7;
+    color: white;
+}
+input::placeholder , textarea::placeholder{
+    color:rgb(113, 113, 113) 
+}
+.h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
