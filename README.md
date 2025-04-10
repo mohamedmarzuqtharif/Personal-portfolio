@@ -11,7 +11,7 @@ A brief introduction to who I am and what I do. A collection of my previous web 
 
 Installation Clone the repository to your local machine:
 
-bash Copy code git clone "" Open the index.html file in your browser to view the portfolio.
+bash Copy code git clone personal portofolio Open the index.html file in your browser to view the portfolio.
 
 Usage Once the portfolio is loaded in your browser:
 
